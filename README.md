@@ -22,7 +22,7 @@ goroutine profile: total 3
 
 \#	0xad58a		net/http.HandlerFunc.ServeHTTP+0x3a						/usr/local/Cellar/go/1.6/libexec/src/net/http/server.go:1618
 
-\#	0xdb9a3		github.com/sasha-s/go-linkify-stacktraces.LinkifyingMiddleware.func1.1+0x373	/Users/sasha/go/src[/github.com/sasha-s/go-linkify-stacktraces/linkify.go:22](https://github.com/sasha-s/go-linkify-stacktraces/blob/master/linkify.go\#L22)
+\#	0xdb9a3		github.com/sasha-s/go-linkify-stacktraces.LinkifyingMiddleware.func1.1+0x373	/Users/sasha/go/src[/github.com/sasha-s/go-linkify-stacktraces/linkify.go:22](https://github.com/sasha-s/go-linkify-stacktraces/blob/b11a8bf9b8b57397d617e71fd7cd215cd7a2ce75/linkify.go\#L22)
 
 \#	0xad58a		net/http.HandlerFunc.ServeHTTP+0x3a						/usr/local/Cellar/go/1.6/libexec/src/net/http/server.go:1618
 
@@ -35,7 +35,7 @@ goroutine profile: total 3
 ...
 
 ## Usage
-See [example](https://github.com/sasha-s/go-linkify-stacktraces/blob/master/cmd/linkify-example/lnk.go).
+See [example](https://github.com/sasha-s/go-linkify-stacktraces/blob/b11a8bf9b8b57397d617e71fd7cd215cd7a2ce75/cmd/linkify-example/lnk.go).
 
 ```go
 http.DefaultServeMux.Handle("/debug/pprof/goroutine", linkify.PprofHandler(repo, commitHash))
