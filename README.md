@@ -1,5 +1,5 @@
 # go-linkify-stacktraces
-Golang: linkify http://localhost:1234/debug/pprof/goroutine?debug stacktaces, linking file:lines to github.
+Golang: linkify /debug/pprof/goroutine?debug stacktaces, linking file:lines to github.
 
 Works best when everything is vendored.
 
